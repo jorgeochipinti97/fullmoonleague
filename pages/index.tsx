@@ -367,7 +367,7 @@ export default function Home() {
                       }}
                     >
                       Nuestra liga está ubicada en la zona de Canning y contamos
-                      con el predio "Club Portugués - Chara Predio", donde se
+                      con el predio Club Portugués - Chara Predio, donde se
                       jugarán los partidos. Estamos comprometidos en ofrecer una
                       experiencia de fútbol divertida y competitiva para todos
                       los equipos y jugadores que formen parte de nuestra liga.
