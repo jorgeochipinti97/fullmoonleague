@@ -8,8 +8,8 @@ import { fontWeight } from "@mui/system";
 export const ReglamentoPago = () => {
   return (
     <>
-      <div data-aos="fade-left">
         <Accordion>
+      <div data-aos="fade-left">
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold" }}>
               Información General
@@ -80,11 +80,11 @@ export const ReglamentoPago = () => {
               años.
             </Typography>
           </AccordionDetails>
-        </Accordion>
       </div>
+        </Accordion>
 
-      <div data-aos="fade-rigth">
         <Accordion>
+      <div data-aos="fade-rigth">
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold" }}>
               Estructura general del Torneo
@@ -109,11 +109,11 @@ export const ReglamentoPago = () => {
               4º - Resultado del partido entre los equipos empatados.
             </Typography>
           </AccordionSummary>
-        </Accordion>
       </div>
+        </Accordion>
 
-      <div data-aos="fade-left">
         <Accordion>
+      <div data-aos="fade-left">
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold" }}>
               Horarios y tolerancia
@@ -164,11 +164,11 @@ export const ReglamentoPago = () => {
               del tiempo de juego.
             </Typography>{" "}
           </AccordionSummary>
-        </Accordion>
       </div>
+        </Accordion>
 
-      <div data-aos="fade-rigth">
         <Accordion>
+      <div data-aos="fade-rigth">
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold" }}>Incripciones</Typography>
           </AccordionSummary>
@@ -179,11 +179,11 @@ export const ReglamentoPago = () => {
               datos requeridos.
             </Typography>
           </AccordionSummary>
-        </Accordion>
       </div>
+        </Accordion>
 
-      <div data-aos="fade-left">
         <Accordion>
+      <div data-aos="fade-left">
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold" }}>Pagos</Typography>
           </AccordionSummary>
@@ -199,11 +199,11 @@ export const ReglamentoPago = () => {
               partido disputado
             </Typography>
           </AccordionSummary>
-        </Accordion>
       </div>
+        </Accordion>
 
-      <div data-aos="fade-rigth">
         <Accordion>
+      <div data-aos="fade-rigth">
           <AccordionSummary>
             <Typography sx={{ fontWeight: "bold" }}>
               {" "}
@@ -220,8 +220,8 @@ export const ReglamentoPago = () => {
               sólo el depósito/garantí{" "}
             </Typography>
           </AccordionSummary>
-        </Accordion>
       </div>
+        </Accordion>
     </>
   );
 };
