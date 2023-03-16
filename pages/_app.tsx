@@ -9,8 +9,8 @@ const initAOS = () => {
     duration: 200, // Duración de la animación (en milisegundos)
     easing: "ease-in-out", // Curva de la animación
     delay: 1000, // Retraso antes de que comience la animación (en milisegundos)
-    once: false, // Si es true, la animación solo se ejecutará una vez
-    mirror: true, // Si es true, la animación se reproducirá en reversa cuando se desplaza hacia arriba
+    once: true, // Si es true, la animación solo se ejecutará una vez
+    mirror: false, // Si es true, la animación se reproducirá en reversa cuando se desplaza hacia arriba
   });
 };
 
